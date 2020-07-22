@@ -1,5 +1,6 @@
 require "sinatra"
 
+#makes this web application available outside of this computer
 set :bind, '0.0.0.0'
 
 get "/hello" do
